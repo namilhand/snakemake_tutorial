@@ -1,0 +1,10 @@
+FileNotFoundError in line 32 of /datasets/data_4/nison/arp6/spo11-oligo-seq/Snakefile:
+[Errno 2] File b'data/index/TAIR10_chr_all.fa.sizes' does not exist: b'data/index/TAIR10_chr_all.fa.sizes'
+  File "/datasets/data_4/nison/arp6/spo11-oligo-seq/Snakefile", line 32, in <module>
+  File "/home/nison/anaconda3/envs/ChIPseq_mapping/lib/python3.7/site-packages/pandas/io/parsers.py", line 702, in parser_f
+  File "/home/nison/anaconda3/envs/ChIPseq_mapping/lib/python3.7/site-packages/pandas/io/parsers.py", line 429, in _read
+  File "/home/nison/anaconda3/envs/ChIPseq_mapping/lib/python3.7/site-packages/pandas/io/parsers.py", line 895, in __init__
+  File "/home/nison/anaconda3/envs/ChIPseq_mapping/lib/python3.7/site-packages/pandas/io/parsers.py", line 1122, in _make_engine
+  File "/home/nison/anaconda3/envs/ChIPseq_mapping/lib/python3.7/site-packages/pandas/io/parsers.py", line 1853, in __init__
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
