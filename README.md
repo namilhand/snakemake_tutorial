@@ -1,1 +1,0 @@
-# snakemake_tutorial
